@@ -24,5 +24,6 @@ public class ToLearnRightClick {
 	//Performing Right click on the web-Element
     act.contextClick(rightClickEle).perform();
     driver.findElement(By.xpath("//span[text()='Copy']")).click();
+	 //Performing mouse operations
 }  
 }
